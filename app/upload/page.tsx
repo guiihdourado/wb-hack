@@ -1,7 +1,5 @@
 "use client"
 
-import Link from "next/link"
-
 import { useState } from "react"
 
 import { Header } from "@/components/ui/header"
@@ -56,9 +54,7 @@ export default function Home() {
               <Input type="text" value={hubspotLink} onChange={(e) => setHubspotLink(e.target.value)} />
             </div>
           </div>
-          <Link href="/list">
-            <Button className="w-16 bg-yellow-300 text-black border border-black hover:bg-yellow-400 duration-300">Enviar</Button>
-          </Link>
+          <Button className="w-16 bg-yellow-300 text-black border border-black hover:bg-yellow-400 duration-300">Enviar</Button>
         </div>
       </div>
     </div>
